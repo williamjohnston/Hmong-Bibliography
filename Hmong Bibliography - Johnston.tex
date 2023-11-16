@@ -1,4 +1,4 @@
-\documentclass[11pt]{scrartcl}
+\documentclass[11pt,DIV=12]{scrartcl}
 %\usepackage[margin=1in]{geometry}
 \input{D:/Synced/Drive/School/Research/"Dissertation Writing"/Preamble/Header.tex}
 \KOMAoptions{paper=letter, parskip=half}
@@ -16,11 +16,7 @@
 \RedeclareSectionCommands[font={\rmfamily\bfseries\normalsize}, runin=on, beforeskip=0pt,afterskip=0.5em]{paragraph,subparagraph}
 
 %%% TABLES, LISTS, FIGURES, AND GRAPHICS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[table]{xcolor}
-\usepackage{enumitem}
-\usepackage{graphicx}
-	\graphicspath{ {../Images/} }
-\usepackage[export]{adjustbox}	% Better environment controls
+%\usepackage[table]{xcolor}
 
 %%% LINGUISTICS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{D:/Synced/Drive/School/Research/"Dissertation Writing"/Preamble/Linguistics.tex}
@@ -38,60 +34,42 @@
 \addbibresource{hmong.bib}
 %\setlength\bibitemsep{0.5\baselineskip}
 
-
 %%% CUSTOM COMMANDS AND ENVIRONMENTS %%%%%%%%%%%%%%%
-\newcommand{\myrule}{\rule{.50\pagewidth}{.4pt}}
-	%For generating uniform rules, in case it's separately needed
-	
-\newcommand{\frule}{
-	\vspace{-1.5\baselineskip}
-	\begin{center}\myrule\end{center}
-	\vspace{-1\baselineskip}
-	}
-	%For generating uniform rules, in case it's separately needed
+%\newenvironment{commoncore}% Shared formatting for all bibliography entries
+%	{\vspace{-0.5\baselineskip}% Reduces whitespace because...
+%		\begin{center}% ...this introduces 1\baselineskip extra whitespace before and after. 
+%		\begin{minipage}{\dimexpr\linewidth-5em}%
+%		\KOMAoptions{parskip=half}%
+%		}
+%	{\end{minipage}\end{center}}
 
-\newcommand{\currentref}{}% Dummy command for use in entry environment
-
-\newenvironment{commoncore}%
-	{	\vspace{-0.5\baselineskip}%
-		\begin{center}% Introduces 1\baselineskip amount of white space before and after. 
-		\begin{minipage}{.88\linewidth}%
+%This one saves a little bit of space by extending the bibs to the right margin
+\newenvironment{commoncore}% Shared formatting for all bibliography entries
+	{\hspace*{2.5em}\begin{minipage}{\dimexpr\linewidth-2.5em}%
 		\KOMAoptions{parskip=half}%
 		}
-	{	\end{minipage}\medskip\par%
-%		\myrule\medskip%
-		\end{center}%
-		}
+	{\end{minipage}}
 
-%Or should I just make these real subsections/paragraphs? 
-\newenvironment{entry}[1]%
-	{	\renewcommand{\currentref}{#1}%
-		\paragraph{\citetitle{\currentref}}\parencite{\currentref}\label{\currentref}%
-		\begin{commoncore}%
+\newenvironment{entry}[1]% Formatting for main bib entries
+	{\paragraph{\citetitle{#1}}% Sets title in paragraph formatting
+		\label{#1}% Adds label for later reference
+		\parencite{#1}% Prints citation
+		\par\begin{commoncore}% Begins shared formatting
 		}
-	{	\par%
-%		\fullcite{\currentref}%
-		\end{commoncore}%
-		}%
+	{\par\end{commoncore}}% Ends shared formatting
 
-%New environment for ``other works'' subsection at the end of each section
-\newenvironment{otherworks}%
-	{	\paragraph{Other works}%
-		\begin{commoncore}%
-		}
-	{	\par%
-		\end{commoncore}%
-		}%
+\newenvironment{otherworks}% Formatting for ``other works'' sections
+	{\paragraph{Other works}% Adds title
+		\hphantom{:}% Hacky fix for line spacing problem
+		\par\begin{commoncore}}% Begins shared formatting
+	{\par\end{commoncore}}% Ends shared formatting
 
-\newcommand{\rlink}[1]{\hyperref[#1]{\citealt{#1}}}%For ``see also'' lists
+\newcommand{\rlink}[1]{\hyperref[#1]{\citealt{#1}}}% For consistent formatting of ``see also'' links
 	
 %%% METADATA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Hmong linguistics resources}
 \author{William Johnston} 
 \date{} % Activate to display a given date or no date (if empty), otherwise the current date is printed 
-
-%%% HEADER AND FOOTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 %%% MAIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -101,17 +79,15 @@
 \renewcommand{\abstractname}{}
 \begin{abstract}
 \noindent
-This document is an annotated bibliography of published linguistic research on the Hmong language, primarily dealing with White Hmong and Green Mong varieties. As these two varieties have highly similar grammars, much of this research will be relevant to both (but please keep in mind that there may be some differences).
+This document is an annotated bibliography of published linguistic research on the Hmong language, primarily dealing with White Hmong and Green Mong varieties. As these two varieties have highly similar grammars, much of this research will be relevant to both (but please keep in mind that there may be some differences). The annotations in this document are meant to give an indication of the main contributions of each source and to point out those sources that are particularly useful and informative. However, be aware that these annotations represent my opinions, and that these are not necessarily shared by all linguists. 
 
-Please be aware that this list is not comprehensive. Many sources exist that are not included here. In particular, please note that: 
+Please also be aware that this list is not comprehensive. Many sources exist that are not included here. In particular, please note that: 
 
 \begin{itemize}
 \item These sources focus on the syntax and semantics (grammar and meaning) of Hmong, rather than on the language's sound system, its history, or its relationship to Hmong culture. 
-\item Sources on other, related languages may be included when they are also relevant to Hmong, but those are not the main focus of this bibliography. 
-\item This list is in-progress; further relevant works may continue to be added. 
+\item Sources on other, related languages may be included when they are also relevant to Hmong, but they are not the main focus of this bibliography. 
+\item This list is in-progress; some relevant works have not yet be added. 
 \end{itemize}
-
-The annotations in this document are meant to give an indication of the main contributions of each source and to point out those sources that are particularly useful and informative. However, be aware that these annotations represent my opinions, and that these are not necessarily shared by all linguists. 
 
 For anyone interested in Hmong phonetics/phonology, historical linguistics, or sociolinguistics, or interested in Hmong-Mien languages more broadly, I suggest that you consult the Oxford Bibliographies page on Hmong-Mien linguistics 
 (\href{https://www.oxfordbibliographies.com/view/document/obo-9780199772810/obo-9780199772810-0173.xml}{\textsc{web}}, 
@@ -121,15 +97,13 @@ For anyone interested in Hmong phonetics/phonology, historical linguistics, or s
 \newpage
 \tableofcontents
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	OVERVIEWS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% OVERVIEWS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{Grammars and Overviews}\label{overviews}
 \vspace{-0.5\baselineskip}
 
 Unfortunately there are no comprehensive, book-length grammars of Hmong---but there are still good references available. The two most recent sources mentioned here, \rlink{Jarkey2015} and \rlink{Mortensen2019}, are generally in agreement with one another, but have some slight differences. I recommend reading both of these sources even if you are only intersted in one particular variety.
-
+	
 \begin{entry}{Mottin1978}
 This is a widely cited and foundational description of the White Hmong language, and among the most thorough. It describes many grammatical constructions and includes many, many examples. Though published in French, this is a useful resource for anyone interested in Hmong grammar. 
 \end{entry}
@@ -156,7 +130,7 @@ The initial chapter of \rlink{Jarkey2015} provides an overview of White Hmong gr
 %	VERBS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Verbs and the verb phrase}\vspace{-1\baselineskip}
+\section{Verbs, the verb phrase, and events}\vspace{-1\baselineskip}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Serial verb constructions} \label{serialverbconstructions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -171,7 +145,7 @@ The initial chapter of \rlink{Jarkey2015} provides an overview of White Hmong gr
 \end{entry}
 
 \begin{entry}{Jarkey2010}
-{Discusses serial verb constructions involving motion. The contents of this chapter are incorporated into \hyperref[Jarkey2015]{Jarkey 2015} (see Chapter 3, Section 1).} 
+{Discusses serial verb constructions involving motion. The contents of this chapter are incorporated into \rlink{Jarkey2015} (see Chapter 3, Section 1).} 
 \end{entry}
 
 \begin{entry}{Riddle1989}
@@ -179,7 +153,7 @@ Discusses several classes of serial verb construction in White Hmong (including 
 \end{entry}
 
 \begin{otherworks}
-Both \citet{Fuller1990} and \citet{Clark1992b} discuss the apparent link between serial verb constructions and other types of structures in which coordination, subordination, or modification are not overtly signaled. Clark non-standardly labels all of these phenomena as ``serialization'', while Riddle describes this trend as a preference for a ``paratactic surface target structure'' in Hmong, though neither paper analyzes this pattern in detail. 
+Both \citet{Riddle1990a} and \citet{Clark1992b} discuss the apparent link between serial verb constructions and other types of structures in which coordination, subordination, or modification are not overtly signaled. Clark non-standardly labels all of these phenomena as ``serialization'', while Riddle describes this trend as a preference for a ``paratactic surface target structure'' in Hmong, though neither paper analyzes this pattern in detail. 
 
 %Fuller cites (a.o.): 
 	%Goral, Donald. Verb concatenation in Southeast Asian languages: a cross-linguistic study. 
@@ -234,48 +208,46 @@ A good overview of the distribution and use of various grammatical markers, incl
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Situational aspect/aktionsart}
 
-\begin{entry}{Johnston2023}
+\begin{entry}{Johnston2023a}
 Discusses Accomplishment verbs in White Hmong (\ol{nrhiav} `search for/find', \ol{noj} `eat', etc.), which are ``non-culminating'': they do not necessarily mean that their goal was reached. (For example, \ol{kuv \textbf{nrhiav} lub pob} `I searched for/found the ball' doesn't necessarily mean that the ball was found.) Focuses on verb serialization as a strategy for adding the ``culminating'' meaning. 
 \end{entry}
 
 %Jarkey, Nerida. 2004. Process and goal in White Hmong. In Tapp, Nicholas & Gary Yia Lee (eds.), The Hmong of Australia: Culture and diaspora, 175-189. Canberra: Pandanus Press.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Motion events and prepositions}
+
+%Clark, M. (1979). Coverbs: Evidence for the Derivation of Prepositions from Verbs, New Evidence from Hmong. Working Papers in Linguistics, University of Hawaii at Manoa 11(2).
+%
+%Clark, M. (1979). Synchronically Derived Prepositions in Diachronic Perspective: Some Evidence from Hmong. Unpublished paper presented at the 12th International Conference on Sino-Tibetan Languages and Linguistics, Paris, October 19-21.
+%
+%Clark, M. (1980). Source Phrases in White Hmong (Laos). Working Papers in Linguistics, University of Hawaii at Manoa 12(2): 1-49.
+%
+%Clark, M. (1980). Derivation between Goal and Source Verbs in Hmong. Working Papers in Linguistics, University of Hawaii at Manoa 12(2): 51-59.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Studies of specific verbs}
 
 \begin{entry}{Taguchi2019}
-A study of two motion verbs in Lan Hmyo, a West Hmongic language closely related to White Hmong/Green Mong. These verbs are \ol{luB} `come (home)' (Hmong \ol{los}/\ol{lus}), which Taguchi argues grammatically encodes the notion of ``home'', and \ol{\textipa{Da}A} `come' (Hmong \ol{tuaj}) which Taguchi claims does not.
+A study of two motion verbs in Lan Hmyo, a West Hmongic language closely related to White Hmong/Green Mong. These verbs are \ol{luB} `come (home)' (Hmong \ol{los}/\ol{lus}), which Taguchi argues grammatically encodes the notion of ``home'', and \ol{\textipa{Da}A} `come' (Hmong \ol{tuaj}) which Taguchi claims does not. The same contrast appears in Hmong. 
 \end{entry}
 
 \begin{entry}{Enfield2003}
 Many Southeast Asian languages have a single word that serves all of the following functions: (1) a verb meaning `get, acquire, attain', (2) an aspect marker associated with completion, (3) a possibility modal meaning `can, be able to', and (4) an introducer of ``descriptive complements''. Although this work focuses on data from Lao, it also surveys a variety of other languages and contains a significant amount of data on Hmong \ol{tau}. (More information on \ol{tau} can be found in \rlink{Li1991} and \rlink{Jarkey2015}.)	
 \end{entry}
 
-
-
-%Clark, M. (1979). Coverbs: Evidence for the Derivation of Prepositions from Verbs, New Evidence from Hmong. Working Papers in Linguistics, University of Hawaii at Manoa 11(2).
-%
-%Clark, M. (1979). Synchronically Derived Prepositions in Diachronic Perspective: Some Evidence from Hmong. Unpublished paper presented at the 12th International Conference on Sino-Tibetan Languages and Linguistics, Paris, October 19-21.
-%
-%Clark, Marybeth. 1982. Some auxiliary verbs in Hmong. In Bruce T. Downing \& Douglas P. Olney (eds.), The Hmong in the West, 125-141. Minneapolis: Southeast Asian Refugee Studies Project, Center for Urban and Regional Affairs, University of Minnesota.
-%
-%Clark, M. (1980). Source Phrases in White Hmong (Laos). Working Papers in Linguistics, University of Hawaii at Manoa 12(2): 1-49.
-%
-%Clark, M. (1980). Derivation between Goal and Source Verbs in Hmong. Working Papers in Linguistics, University of Hawaii at Manoa 12(2): 51-59.
-%
 %Jaisser, A. (1990). “Delivering an Introduction to Psycho-Collocations with SIAB in White Hmong.” Linguistics of the Tibeto-Burman Area 13 (Spring 1990): 159-178.
-%
 
+%Clark, Marybeth. 1982. Some auxiliary verbs in Hmong. In Bruce T. Downing \& Douglas P. Olney (eds.), The Hmong in the West, 125-141. Minneapolis: Southeast Asian Refugee Studies Project, Center for Urban and Regional Affairs, University of Minnesota.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Nouns and the noun phrase}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{Nouns}
-
 % Ratliff 1991 (The development of nominal/non-nominal tone marking in Shimen Hmong'?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Classifiers}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{entry}{SakuragiFuller2013}
 {A study examining the factors that affect Hmong speakers' choice of classifiers. The results suggest that classifiers are associated with both particular shapes and particular functions. (E.g., \ol{tus} and \ol{txoj} can both be used for nouns that describe long, thin objects, but \ol{tus} is preferred over \ol{txoj} when the normal use of that noun involves grasping it.) In some cases, Hmong speakers can be led to prefer different classifiers for the same noun, depending on whether they focus on the shape of the noun in question, or on its function.} 
@@ -288,8 +260,8 @@ Many Southeast Asian languages have a single word that serves all of the followi
 On the basis of syntactic and semantic tests, Bisang shows that what are usually called ``classifiers'' in Hmong are in fact a mixed bag of true classifiers, quantifiers, measure words, and class nouns. This is a detailed and fine-grained description, which offers an contrasting view of the ``double classifier constraint'' discussed by \rlink{Ratliff1991} and an explanation for the ``referential salience'' analysis of \rlink{Riddle1989a}.
 \end{entry}
 
-%\begin{entry}{Riddle1989a}
-%\end{entry}
+\begin{entry}{Riddle1989a}
+\end{entry}
 
 \begin{entry}{Ratliff1991}
 {Discusses cases of ``double classifiers'' in Hmong. These usually involve the plural classifier \ol{cov} being added to a classifier-noun pair, but require the noun to be semantically underspecified (e.g. \ol{cov $+$ phau ntawv}, `the books'). Ratliff argues that the second classifier acts as a noun in these cases, forming the first part of a compound word, and relates this to a broader pattern of syntactic flexibility in Hmong. (Data from White Hmong.)} 

@@ -2,38 +2,39 @@
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Mottin1978}}{3}{paragraph*.3}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Mortensen2019}}{3}{paragraph*.5}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Jarkey2015}}{3}{paragraph*.7}%
-\contentsline {section}{\numberline {2}Verbs and the verb phrase}{3}{section.2}%
+\contentsline {section}{\numberline {2}Verbs, the verb phrase, and events}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Serial verb constructions}{3}{subsection.2.1}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Jarkey2015}}{3}{paragraph*.9}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Jarkey2010}}{3}{paragraph*.11}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Riddle1989}}{4}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Riddle1989}}{3}{paragraph*.13}%
 \contentsline {paragraph}{\nonumberline Other works}{4}{paragraph*.15}%
 \contentsline {subsection}{\numberline {2.2}Voice and valency}{4}{subsection.2.2}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {CreswellSnyder2000}}{4}{paragraph*.17}%
 \contentsline {subsection}{\numberline {2.3}Tense, aspect, and mood}{4}{subsection.2.3}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Li1991}}{4}{paragraph*.19}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {White2014}}{5}{paragraph*.21}%
-\contentsline {subsection}{\numberline {2.4}Situational aspect/aktionsart}{5}{subsection.2.4}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Johnston2023}}{5}{paragraph*.23}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {White2014}}{4}{paragraph*.21}%
+\contentsline {subsection}{\numberline {2.4}Situational aspect/aktionsart}{4}{subsection.2.4}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Johnston2023a}}{4}{paragraph*.23}%
 \contentsline {subsection}{\numberline {2.5}Studies of specific verbs}{5}{subsection.2.5}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Taguchi2019}}{5}{paragraph*.25}%
 \contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Enfield2003}}{5}{paragraph*.27}%
-\contentsline {section}{\numberline {3}Nouns and the noun phrase}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Classifiers}{6}{subsection.3.1}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {SakuragiFuller2013}}{6}{paragraph*.29}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Bisang1993}}{6}{paragraph*.31}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Ratliff1991}}{6}{paragraph*.33}%
+\contentsline {section}{\numberline {3}Nouns and the noun phrase}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Classifiers}{5}{subsection.3.1}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {SakuragiFuller2013}}{5}{paragraph*.29}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Bisang1993}}{5}{paragraph*.31}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Riddle1989a}}{5}{paragraph*.33}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Ratliff1991}}{5}{paragraph*.35}%
 \contentsline {subsection}{\numberline {3.2}Demonstratives}{6}{subsection.3.2}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Ratliff1997}}{6}{paragraph*.35}%
-\contentsline {subsection}{\numberline {3.3}Pronouns and Binding}{7}{subsection.3.3}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Mortensen2004}}{7}{paragraph*.37}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Ratliff1992b}}{7}{paragraph*.39}%
-\contentsline {section}{\numberline {4}Clause and sentence structure}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Complementizers and Complement Clauses}{7}{subsection.4.1}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Jarkey2006}}{7}{paragraph*.41}%
-\contentsline {subsection}{\numberline {4.2}Conjunctions and Discourse Particles}{7}{subsection.4.2}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Li1989}}{7}{paragraph*.43}%
-\contentsline {paragraph}{\nonumberline Other works}{8}{paragraph*.45}%
-\contentsline {subsection}{\numberline {4.3}Questions}{8}{subsection.4.3}%
-\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Clark1985}}{8}{paragraph*.47}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Ratliff1997}}{6}{paragraph*.37}%
+\contentsline {subsection}{\numberline {3.3}Pronouns and Binding}{6}{subsection.3.3}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Mortensen2004}}{6}{paragraph*.39}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Ratliff1992b}}{6}{paragraph*.41}%
+\contentsline {section}{\numberline {4}Clause and sentence structure}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Complementizers and Complement Clauses}{6}{subsection.4.1}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Jarkey2006}}{6}{paragraph*.43}%
+\contentsline {subsection}{\numberline {4.2}Conjunctions and Discourse Particles}{6}{subsection.4.2}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Li1989}}{6}{paragraph*.45}%
+\contentsline {paragraph}{\nonumberline Other works}{7}{paragraph*.47}%
+\contentsline {subsection}{\numberline {4.3}Questions}{7}{subsection.4.3}%
+\contentsline {paragraph}{\nonumberline \blx@tocontentsinit {0}\citetitle {Clark1985}}{7}{paragraph*.49}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

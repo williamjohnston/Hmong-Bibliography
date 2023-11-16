@@ -456,7 +456,7 @@
       \field{title}{Serial Verbs in {{White Hmong}}}
       \field{year}{2015}
     \endentry
-    \entry{Johnston2023}{article}{}
+    \entry{Johnston2023a}{inproceedings}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0a29837f9093bc1715914f29f19f9660}{%
            family={Johnston},
@@ -465,26 +465,49 @@
            giveni={W\bibinitperiod},
            givenun=0}}%
       }
+      \name{editor}{4}{}{%
+        {{hash=07e9d7a21d7b9962e090d58419682615}{%
+           family={Kiper},
+           familyi={K\bibinitperiod},
+           given={Yağmur},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dbc124fde2dd319251f34f0b9d0303ee}{%
+           family={Lyu},
+           familyi={L\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+        {{hash=381acc90b735e92b526f54f35b1eef01}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=63c13a0e6b5d46f54573e23fc2275dc5}{%
+           family={Webster},
+           familyi={W\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cascadilla Press}%
+      }
       \strng{namehash}{0a29837f9093bc1715914f29f19f9660}
       \strng{fullhash}{0a29837f9093bc1715914f29f19f9660}
       \strng{bibnamehash}{0a29837f9093bc1715914f29f19f9660}
       \strng{authorbibnamehash}{0a29837f9093bc1715914f29f19f9660}
       \strng{authornamehash}{0a29837f9093bc1715914f29f19f9660}
       \strng{authorfullhash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{editorbibnamehash}{bcb0d9512e29d095fcdf693578ab05d5}
+      \strng{editornamehash}{f41d7d93f2307db0c5dba0ca87bd1b82}
+      \strng{editorfullhash}{bcb0d9512e29d095fcdf693578ab05d5}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Semantics and Pragmatics}
-      \field{number}{2}
-      \field{title}{Pair-List Answers to Questions with Plural Definites}
-      \field{volume}{16}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.3765/sp.16.2
-      \endverb
+      \field{booktitle}{West {{Coast Conference}} on {{Formal Linguistics}} ({{WCCFL}}) 41}
+      \field{title}{Culmination {{Entailments}} in {{V}} and {{P}}: {{Evidence}} from {{Hmong}}}
+      \field{year}{forthcoming}
     \endentry
     \entry{Li1989}{incollection}{}
       \name{author}{1}{}{%
@@ -861,6 +884,55 @@
       \field{title}{White {{Hmong}} Noun Classifiers and Referential Salience}
       \field{year}{1989}
     \endentry
+    \entry{Riddle1990a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d45b1734796767659dc91547f24ae834}{%
+           family={Riddle},
+           familyi={R\bibinitperiod},
+           given={Elizabeth\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=966ddbfc8643e169d0ab794152a28e5b}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Brian\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=690751e1210cec0485cf53fe21358582}{%
+           family={Zwicky},
+           familyi={Z\bibinitperiod},
+           given={Arnold\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Columbus}%
+      }
+      \list{publisher}{1}{%
+        {Department of Linguistics, Ohio State Univ.}%
+      }
+      \strng{namehash}{d45b1734796767659dc91547f24ae834}
+      \strng{fullhash}{d45b1734796767659dc91547f24ae834}
+      \strng{bibnamehash}{d45b1734796767659dc91547f24ae834}
+      \strng{authorbibnamehash}{d45b1734796767659dc91547f24ae834}
+      \strng{authornamehash}{d45b1734796767659dc91547f24ae834}
+      \strng{authorfullhash}{d45b1734796767659dc91547f24ae834}
+      \strng{editorbibnamehash}{cf12df0ea56c205b1383ed53c2649848}
+      \strng{editornamehash}{cf12df0ea56c205b1383ed53c2649848}
+      \strng{editorfullhash}{cf12df0ea56c205b1383ed53c2649848}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{When Verbs Collide: {{Papers}} from the 1990 {{Ohio State Mini-Conference}} on {{Serial Verbs}}}
+      \field{title}{Parataxis in {{White Hmong}}}
+      \field{year}{1990}
+      \field{pages}{65\bibrangedash 76}
+      \range{pages}{12}
+    \endentry
     \entry{Riddle1992}{inproceedings}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d45b1734796767659dc91547f24ae834}{%
@@ -897,7 +969,7 @@
       \strng{editorbibnamehash}{63fe1a94fd0817cf0124f38c3a0803b9}
       \strng{editornamehash}{63fe1a94fd0817cf0124f38c3a0803b9}
       \strng{editorfullhash}{63fe1a94fd0817cf0124f38c3a0803b9}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -925,7 +997,7 @@
       \strng{authorbibnamehash}{d45b1734796767659dc91547f24ae834}
       \strng{authornamehash}{d45b1734796767659dc91547f24ae834}
       \strng{authorfullhash}{d45b1734796767659dc91547f24ae834}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1036,7 +1108,6 @@
       \field{year}{2014}
     \endentry
   \enddatalist
-  \missing{Fuller1990}
 \endrefsection
 \endinput
 
